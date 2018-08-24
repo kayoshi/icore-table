@@ -2,10 +2,10 @@ var path = require('path');
 
 module.exports = {
     mode: 'production',
-    entry: './src/BoilerplateComponent.jsx',
+    entry: './src/Table.jsx',
     output: {
         path: path.resolve('lib'),
-        filename: 'BoilerplateComponent.js',
+        filename: 'Table.js',
         libraryTarget: 'commonjs2'
     },
     module: {
